@@ -1,0 +1,87 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/search/search",
+    "pages/user/user",
+    "pages/dbmarket/dbmarket",
+    "pages/dbmarket2/dbmarket2",
+
+    "pages/changedetail/changedetail",
+    "pages/channeldetail/channeldetail",
+    "pages/my_information/my_information",
+    "pages/my_release/my_release",
+    "pages/invite/invite",
+    "pages/my_purse/my_purse",
+    "pages/my_collect/my_collect",
+    "pages/about/about",
+    "pages/release_change/release_change",
+    "pages/release_channel/release_channel",
+    "pages/report/report",
+    "pages/perfect_two/perfect_two",
+    "pages/perfect_one/perfect_one",
+    "pages/test/test",
+    "pages/send_wait/send_wait",
+    "pages/send_receive/send_receive",
+    "pages/send_refuse/send_refuse",
+    "pages/send_evaluation/send_evaluation",
+    "pages/receive_wait/receive_wait",
+    "pages/receive_receive/receive_receive",
+    "pages/receive_refuse/receive_refuse",
+    "pages/q_send_wait/q_send_wait",
+    "pages/q_send_receive/q_send_receive",
+    "pages/q_send_evaluation/q_send_evaluation",
+    "pages/q_send_refuse/q_send_refuse",
+    "pages/q_receive_wait/q_receive_wait",
+    "pages/q_receive_receive/q_receive_receive",
+    "pages/q_receive_refuse/q_receive_refuse",
+    "pages/problem/problem",
+    "pages/problem_one/problem_one",
+    "pages/problem_two/problem_two",
+    "pages/bluebook/bluebook",
+    "pages/activity/activity",
+    "pages/fillin/fillin",
+    "pages/selectTarget/selectTarget",
+    "pages/evaluation/evaluation"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor":"#fff",
+    "color": "#D0D0D0",
+    "selectedColor":"#353535",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"image/tabbar_home_normal.png",
+        "selectedIconPath":"image/tabbar_home_hold.png"
+      },
+      {
+        "pagePath": "pages/dbmarket2/dbmarket2",
+        "text": "干货学习",
+        "iconPath": "image/ngbj.png",
+        "selectedIconPath": "image/ngbjh.png"
+      },
+      {
+        "pagePath": "pages/dbmarket/dbmarket",
+        "text": "小程序换量",
+        "iconPath": "image/db.png",
+        "selectedIconPath": "image/dbhold.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "image/tabbar_mine_normal.png",
+        "selectedIconPath": "image/tabbar_mine_hold.png"
+      }
+    ]
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx07d931bd8a8ecc1a",
+    "wx06cbe09017d6ecfe",
+    "wxe8a015203d67e81c"
+  ]
+}
